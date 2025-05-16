@@ -1,0 +1,521 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.title {
+    font-family: "gamay", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 110px;
+    line-height: normal;
+    }
+
+.landingpage{
+    background: black;
+    width: auto;
+    height: 100vh;
+    padding: 50px;
+    margin:0 -8px; padding:0 8px;
+}
+
+.rectangle{
+    height: 10px;
+    width: auto;
+    background-color: #ffffff;
+    margin:0 -8px; padding:0 8px;
+    position: relative;
+    top: -1px;
+}
+
+
+.nav{
+    /* max-width: 100%; */
+    font-family: "gamay", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color:#ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.trumpsactions{
+    /* padding: 50px; */
+    margin: 10px;
+    width: auto;
+    height: auto;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.effectsdepo{
+    width: auto;
+    /* padding: 50px; */
+    margin: 10px;
+    width: auto;
+    height: auto;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+
+.educationstudents{
+    width: auto;
+    padding: 50px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.massdepoimg{
+    background: black;
+    width: auto;
+    height: 100vh;
+    background-image:url(../images/Deportation-voters.jpg);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    padding: 50px;
+    margin:0 -8px; padding:0 8px; 
+    color: #d91804;
+    font-family: "gamay", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+    line-height: normal;
+    overflow: hidden;
+}
+
+.mass1{
+  position: relative;
+  left: 60px;
+  top: 40px;
+  max-width: fit-content;
+}
+
+.mass2{
+    position: relative;
+    left: 410px;
+    max-width: fit-content;
+}
+
+
+.mass3{
+    position: relative;
+  left: 180px;
+  top: -40px;
+  max-width: fit-content;
+}
+
+.mass4{
+    position: relative;
+  left: 600px;
+  top: -100px;
+  max-width: fit-content;
+}
+
+.trumpimg {
+    position: relative;
+    left: 730px;
+    top: -650px;
+
+}
+
+.trumpimg:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+   
+}
+.depoo{
+    position: relative;
+}
+
+.Effectsofdepo{
+    background: black;
+    width: auto;
+    height: 100vh;
+    background-image:url(../images/wall.jpg);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    padding: 50px;
+    margin:0 -8px; padding:0 8px; 
+    color: #d91804;
+    font-family: "gamay", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+    line-height: normal;
+}
+
+
+.depo1{
+    position: relative;
+    left: 145px;
+    top: 40px;
+    max-width: fit-content;
+   }
+   
+   .depo2{
+    position: relative;
+    left: 540px;
+    max-width: fit-content;
+   }
+   
+   
+   .depo3{
+    position: relative;
+    left: 440px;
+    top: -40px;
+    max-width: fit-content;
+   }
+
+
+.subtopics {
+    font-family: "gamay", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 20px;
+    padding-left:25px;
+    max-width: 50%;
+}
+
+.bodytext{
+font-family: "gamay", sans-serif;
+font-weight: 400;
+font-style: normal;
+padding-left:25px;
+padding-top: 5px;
+line-height: normal;
+}
+
+.bodytext1{
+    max-width: 50%;
+   
+}
+
+.bodytext2{
+    max-width: 50%;
+    max-height: 180px;
+}
+
+.sub1{
+    position: relative;
+    left: 50%; 
+}
+
+.bodytext3{
+    max-width: 45%;
+    position: relative;
+    left: 50%;
+}
+
+.sub2{
+    position: relative;
+    left: 50%;   
+}
+
+.bodytext4{
+    max-width: 45%;
+    max-height: 180px;
+    position: relative;
+    left: 50%;
+    
+    
+    /* max-width: 45%;
+    position: relative;
+    left: 50%; */
+    
+}
+
+.fathersonimg{
+    position: relative;
+    top: -373.1px;
+    Right: 760px;
+    /* transform: scale(120%); */
+
+}
+
+.fathersonimg:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes shake{
+    
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.school{
+    position: relative;
+}
+
+.Effectsofschool{
+    background: black;
+    width: auto;
+    height: 100vh;
+    background-image:url(../images/Classroom.jpg);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    padding: 50px;
+    margin:0 -8px; padding:0 8px;
+    color: #d91804;
+    font-family: "gamay", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+    line-height: normal;
+    
+
+}
+
+.school1{
+    position: relative;
+    left: 500px;
+    top: 40px;
+    max-width: fit-content;
+}
+
+.school2{
+    position: relative;
+    left:100px ;
+    max-width: fit-content;
+}
+
+.school3{
+    position: relative;
+    left:300px ;
+    max-width: fit-content;
+}
+
+.bodytext5{
+    max-width: 50%;
+    position: relative;
+}
+
+.bodytext6{
+    max-width: 50%;
+    position: relative;
+}
+
+.sub3{
+    max-width: 25%;
+    position: relative;
+   
+   
+}
+
+.bodytext7{
+    position: relative;
+    max-width: 50%;
+    
+}
+
+.next{
+    position: relative;
+    color: #000000; 
+    max-width: max-content;
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+
+.next:hover{
+    color: #d91804;
+    cursor: pointer;
+}
+
+.studentimg{
+    position: absolute;
+    top: -540px;
+    left:100%;
+}
+
+.studentimg:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+.rectangle1{
+    position: relative;
+    height: 50px;
+    width: auto;
+    background-color: #000000;
+    top: -1px; 
+    margin-top: 20px;
+    /* margin:0 -8px; padding:0 8px; */
+
+    
+}
+
+.dadimg{
+    background: black;
+    width: auto;
+    height: 100vh;
+    background-image:url(../images/ME.jpg);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+    margin:0 -8px; padding:0 8px; 
+    color: #d91804;
+    font-family: "gamay", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+    line-height: normal;
+   
+}
+
+.dad1{
+    position: relative;
+    left: 15%;
+    top: 24%;
+    font-size: 120%;
+    max-width:max-content;
+}
+
+.letter1{
+    max-width: 50%;
+    
+}
+
+.paper{
+    position: relative;
+    width: 40%;
+    height: auto;
+    top: 10px;
+    padding-bottom: 10px;
+    left: 10%;
+}
+
+#box {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 70%;
+    top: 200%;
+    transform: translate(-50%, -50%);
+    
+    }
+
+.flagimg{
+    background: black;
+    width: auto;
+    height: 100vh;
+    background-image:url(../images/flag.jpg);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+    margin:0 -8px; padding:0 8px; 
+    color: #d91804;
+    font-family: "gamay", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+    line-height: normal;
+    overflow: hidden;
+    position: relative;
+    /* top:10px ; */
+}
+
+.knowyourrights{
+    position: relative;
+    left: 10%;
+    top: 24%;
+    font-size: 120%;
+    max-width:max-content;
+}
+
+.kyr1{
+    max-width: 60%;
+    padding-left: 3%;
+}
+
+.kyr2{
+    max-width: 60%;
+    padding-left: 3%;
+}
+
+.kyr3{
+    max-width: 60%;
+    padding-left: 3%;
+}
+
+.fistimg{
+    position:absolute;
+    left:60%;
+}
+
+.fistimg:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+button{ 
+    background-color: #000000;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "gamay", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 5%;
+    width: 100%;
+}
+
+button:hover{
+    border-color:#d91804;
+    color: #d91804;
+    cursor: pointer;
+}
+
+.last{
+    position: relative;
+    color: #000000;
+    text-decoration-line: underline;
+    max-width: max-content;
+    font-size: 20px;
+}
+
+.last:hover{
+    color: #d91804;
+    cursor: pointer;
+}
+
+.rectangle3{
+    position: relative;
+    height:170px;
+    width: auto;
+    background-color: #000000;
+    top: -1px; 
+    margin-top: 80px;
+}
